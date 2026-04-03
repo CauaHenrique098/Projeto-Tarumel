@@ -1,0 +1,36 @@
+/* inicio da declaração das fonte d cria */
+
+
+@font-face{
+    font-family:"Courier";
+    src: url('./FONTES_novas/CourierPrime-Regular.ttf') format('truetype');
+}
+@font-face{
+    font-family:"Montserrat";
+    src: url('./FONTES_novas/Montserrat-Regular.ttf') format('truetype');
+}
+@font-face{
+    font-family:"MontserratBold";
+    src: url('./FONTES_novas/Montserrat-Bold.ttf') format('truetype');
+}
+
+
+/* fim da declaração das fonte d cria */
+
+/* Classes para cada fonte */
+.fcourier {
+    font-family:'Courier';      /* Courier regular */
+    font-weight: normal; 
+}
+.fcourierb{
+    font-family: 'Courier';     /* Courier bold */
+    font-weight:bold;
+}
+.fmont{
+    font-family:'Montserrat';      /* Montserrat regular */
+    font-weight: normal;
+}
+.fmontb{
+    font-family:'MontserratBold';     /* Montserrat bold */
+    font-weight: normal;
+}
