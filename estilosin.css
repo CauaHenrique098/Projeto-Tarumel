@@ -13,6 +13,10 @@
     font-family:"MontserratBold";
     src: url('./FONTES_novas/Montserrat-Bold.ttf') format('truetype');
 }
+@font-face{
+    font-family:"MontserratExtraBold";
+    src: url('./FONTES_novas/Montserrat-ExtraBold.ttf') format('truetype');
+}
 
 
 /* fim da declaração das fonte d cria */
@@ -32,5 +36,9 @@
 }
 .fmontb{
     font-family:'MontserratBold';     /* Montserrat bold */
+    font-weight: normal;
+}
+.fmonteb{
+    font-family:'MontserratExtraBold';     /* Montserrat extra bold */
     font-weight: normal;
 }

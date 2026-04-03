@@ -1,3 +1,12 @@
+@font-face{
+    font-family:"MontserratBold";
+    src: url('./FONTES_novas/Montserrat-Bold.ttf') format('truetype');
+}
+@font-face{
+  font-family: "MontserratExtraBold";
+  src: url(./FONTES_novas/Montserrat-ExtraBold.ttf) format(truetype);
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -28,6 +37,15 @@ header{
   height: 100px;
   margin-top: +25px;
   z-index: 1;
+  border-radius: 30px;
+  transform-origin: top;
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out, filter 0.3s ease-out;
+  
+}
+.logo:hover {
+  transform: rotateX(15deg) scale(1.05);
+  box-shadow: 10px 15px 20px black;
+  filter: brightness(1.05);
 }
 
 .menu {
@@ -39,7 +57,8 @@ header{
   text-decoration: none;
   color: black;
   margin-right: 25px;
-  font-family: Impact, sans-serif;
+  font-family: 'MontserratExtraBold';
+  font-weight: bold;
   font-size: 20px;
 }
 
