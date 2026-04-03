@@ -58,3 +58,28 @@ header{
   font-size: 20px;
   padding-top: 5px;
 }
+
+.section-2{
+  text-align:center;
+  background-color: darkgrey;
+  border-radius: 20px;
+  width:50%;
+  margin: 0 auto;
+  height: 720px;
+
+}
+
+#sorvete{
+  font-family:;
+  font-size:50px;
+}
+
+.img-sorvete{
+  width: 50%;
+  max-width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  object-fit: contain;
+  margin: 0 auto;
+
+}
