@@ -42,3 +42,19 @@ header{
   font-family: Impact, sans-serif;
   font-size: 20px;
 }
+
+.section{
+  background-color:rgb(149, 213, 222);
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+  border-radius: 20px;
+  height: 45px;
+}
+
+
+#mensagem{
+  font-family:cursive;
+  font-size: 20px;
+  padding-top: 5px;
+}
