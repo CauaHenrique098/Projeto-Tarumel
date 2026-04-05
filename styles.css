@@ -31,19 +31,16 @@ header{
   border-radius: 20px;
 }
 
-.menu {
-  flex-grow: 1;
-  margin-left: 50px;
-}
 
-.menu a {
+
+/* .menu a {
   text-decoration: none;
   color: black;
   margin-right: 25px;
   font-family: 'MontserratExtraBold';
   font-weight: bold;
   font-size: 20px;
-}
+} */
 
 .section{
   background-color:rgb(149, 213, 222);
