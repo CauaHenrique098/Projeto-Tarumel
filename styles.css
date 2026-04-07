@@ -104,7 +104,6 @@ h1{
   src: url('Fontes/Montserrat-ExtraBold.ttf') format('truetype');
 }
 
-<<<<<<< HEAD
 #mensagem{
   font-family:cursive;
   font-size: 20px;
@@ -142,7 +141,6 @@ h1{
   height:100%;
   object-fit:hidden;
   transition: transform 0.5s ease;
-
 }
 
 .card:hover .produto-img img{
@@ -162,9 +160,8 @@ h1{
   text-align: center;
   margin-top: 10px;
   margin-left: 5px;
-
 }
-=======
+
 .fontmeb{
   font-family:'MontserratExtraBold';
   font-weight: normal;
@@ -221,4 +218,3 @@ h1{
     font-size: 12px;       /* Texto do rodapé menor */
   }
 }
->>>>>>> 2d407e3c62c9e526abb9f03c1e0c1229d2fd2da2
