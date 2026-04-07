@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +8,64 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header-main"> <!-- esse header é o que cria a parte para ir de uma página pra outra -->
+
+    <header> <!-- esse header é o que cria a parte para ir de uma página pra outra -->
         <a href="index.html"><img src="IMG/Tarumel.jpg" alt="Logo" class="logo"></a>
 
         <nav class="menu">
-            <a href="catalogo.html">Produtos ▾</a>
-            <a href="picoles.html">Sabores de Picolé ▾</a>
-            <a href="sorvetes.html">Sabores de Sorvete ▾</a>
-            <a href="sobre.html">Sobre a Tarumel ▾</a>
+            <img src="Icones/Catalogo.png" class="icone"><a href="catalogo.html">Produtos ▾</a>
+            <img src="Icones/Picole.png" class="icone">  <a href="picoles.html">Sabores de Picolé ▾</a>
+            <img src="Icones/Sorvete.png" class="icone"><a href="sorvetes.html">Sabores de Sorvete ▾</a>
+            <img src="Icones/Empresa.png" class="icone"><a href="sobre.html">Sobre a Tarumel ▾</a>
         </nav>
-    </header>
+    </header><br><br><br>
 
+    <section class="tabela">
+        <table>
+            <tr>
+                <th>Campo</th> <th>Detalhes</th>
+            </tr>
+            <tr>
+                <td><b>Nome Fantasia</b></td>
+                <td>Tarumel Sorvetes</td>
+            </tr>
+            <tr>
+                <td><b>Razão Social</b></td>
+                <td>Warley Ferreira Gontijo - ME</td>
+            </tr>
+            <tr>
+                <td><b>CNPJ</b></td>
+                <td>07.442.504/0001-00</td>
+            </tr>
+            <tr>
+                <td><b>Data de Fundação</b></td>
+                <td>12/05/2005</td>
+            </tr>
+            <tr>
+                <td><b>Atividade Principal</b></td>
+                <td>Fabricação de sorvetes e gelados comestíveis</td>
+            </tr>
+            <tr>
+                <td><b>Sede</b></td>
+                <td>Carmo do Paranaíba - MG</td>
+            </tr>
+        </table>
+    </section>
 
-
+    <section class="maps">
+        <h1>Onde nos Encontrar</h1>
+        <br>
+        <p>Localidade de Campo do Meio SN, Zona Rural, Carmo do Paranaíba MG, 38840-000</p>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3631.8937669320417!2d-46.31495202489261!3d-18.912912807444357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ae0d0003cd792d%3A0xf7d04bd5aad226e6!2sTarumel%20Sorvetes!5e1!3m2!1spt-BR!2sbr!4v1774798577931!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
 
 
 
 
     <footer>
-        <p style="margin-bottom: 0px; margin-top: 0px;">&copy; 2005 - 2026 Sorveteria Tarumel - Todos os direitos reservados.</p>
-        <p style="margin-bottom: 0px;">Aberto Segunda a Sexta, das 9h às 17h.</p>
+        <p class="fontmeb">&copy; 2005 - 2026 Sorveteria Tarumel - Todos os direitos reservados.</p>
+        <p class="fontmeb">Aberto Segunda a Sexta, das 9h às 17h.</p>
     </footer>
 </body>
 </html>

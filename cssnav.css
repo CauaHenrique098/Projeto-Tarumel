@@ -1,0 +1,58 @@
+ul{
+    list-style-type: none;
+    border-radius: 16px;
+    padding:0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+@font-face{
+  font-family:"MontserratExtraBold";
+  src: url('FONTES_novas/Montserrat-ExtraBold.ttf') format('truetype');
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color: black;
+    font-family: "MontserratExtraBold";
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+    
+}
+li a:hover, .dropdown:hover .dropbtn{
+    color: white;
+    background: cyan; /* exclui as classe para ve depois se da certo cussao */
+    border-radius: 15px;
+}
+.dropdown{
+    position:relative;
+    display: inline-block;
+}
+.dropdown-content{
+    position:absolute;
+    left: 50%;
+    top: 100%;
+    pointer-events:none;
+    background: white;
+    border-radius: 15px;
+    filter:drop-shadow(0px 0px 10px);
+    width: fit-content;    
+    display:flex;
+    flex-direction:column;
+    opacity:0;
+    transform: translate(-50%, -10px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.dropdown:hover .dropdown-content{
+    opacity:1;
+    transform: translate(-50%, 0);
+    pointer-events: auto;
+    
+}
+.dropdown-content a:hover{
+    color: white;
+    transform:scale(1.05);
+}

@@ -19,15 +19,60 @@ header{
   padding: 0 40px;
   height: 60px;
   background: white;
-  border-top: 25px solid rgb(149, 213, 222);
-  border-bottom: 15px solid rgb(149, 213, 222);
+  border-top: 15px solid rgb(149, 213, 255);
+  border-bottom: 15px solid rgb(149, 213, 255);
   position: relative;
+}
+
+h1{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 5px;
+  font-family: cursive;
+}
+
+.maps {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.maps iframe {
+  max-width: 800px;
+  width: 100%;
+  border-radius: 15px;
+  border: 3px solid rgb(149, 213, 222);
+}
+
+.tabela table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-radius: 10px;
+  box-shadow: 0 50px 50px rgba(0,0,0,0.2);
+}
+
+.tabela th, .tabela td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.tabela th {
+  background-color: rgb(149, 213, 222);
+  color: black;
 }
 
 .logo {
   height: 100px;
   margin-top: +25px;
   z-index: 1;
+  border-radius: 20px;
+}
+
+.icone {
+  height: 25px;
 }
 
 .menu {
@@ -38,8 +83,10 @@ header{
 .menu a {
   text-decoration: none;
   color: black;
-  margin-right: 25px;
-  font-family: Impact, sans-serif;
+  margin-left: 5px;
+  margin-right: 20px;
+  font-family: 'MontserratExtraBold';
+  font-weight: bold;
   font-size: 20px;
 }
 
@@ -52,7 +99,12 @@ header{
   height: 45px;
 }
 
+@font-face{
+  font-family:"MontserratExtraBold";
+  src: url('Fontes/Montserrat-ExtraBold.ttf') format('truetype');
+}
 
+<<<<<<< HEAD
 #mensagem{
   font-family:cursive;
   font-size: 20px;
@@ -112,3 +164,61 @@ header{
   margin-left: 5px;
 
 }
+=======
+.fontmeb{
+  font-family:'MontserratExtraBold';
+  font-weight: normal;
+}
+
+
+
+/* Configurações para Celular (Telas até 768px) */
+@media (max-width: 768px) {
+  
+  header {
+    flex-direction: column; /* Empilha a logo em cima e o menu embaixo */
+    height: auto;           /* Deixa o cabeçalho crescer conforme o conteúdo */
+    padding: 20px 10px;
+    border-top: 15px solid rgb(149, 213, 222); /* Reduzi a borda no celular */
+  }
+
+  .logo {
+    height: 70px;          /* Logo um pouco menor no celular */
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .menu {
+    margin-left: 0;        /* Remove o recuo da esquerda */
+    display: flex;
+    flex-direction: column; /* Links um embaixo do outro */
+    align-items: center;
+    width: 100%;
+  }
+
+  .menu a {
+    margin: 10px 0;        /* Espaço vertical entre os links */
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .icone {
+    display: none;         /* Opcional: esconde ícones no celular para ganhar espaço */
+  }
+
+  /* Ajuste da Tabela e Mapa */
+  .tabela table {
+    width: 100%;           /* Tabela ocupa toda a largura */
+    font-size: 14px;       /* Letra menor para não vazar */
+  }
+
+  iframe {
+    width: 100% !important; /* Mapa ajusta na tela */
+    height: 300px;         /* Mapa mais baixo no celular */
+  }
+
+  footer {
+    font-size: 12px;       /* Texto do rodapé menor */
+  }
+}
+>>>>>>> 2d407e3c62c9e526abb9f03c1e0c1229d2fd2da2
