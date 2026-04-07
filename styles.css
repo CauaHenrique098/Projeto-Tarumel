@@ -112,7 +112,7 @@ h1{
 
 .produtos{
   display: grid ;
-  grid-template-columns: repeat(auto-fit, minmax(5px, 5fr));
+  grid-template-columns: repeat(auto-fit, minmax(10px, 5fr));
   gap: 40px;
   margin-left: 20px;
 }
@@ -132,7 +132,7 @@ h1{
 }
 
 .produto-img{
-  height: 560px;
+  height: 600px;
   overflow: hidden;
 }
 
