@@ -114,7 +114,8 @@ h1{
   display: grid ;
   grid-template-columns: repeat(auto-fit, minmax(10px, 5fr));
   gap: 40px;
-  margin-left: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .card{
@@ -132,7 +133,7 @@ h1{
 }
 
 .produto-img{
-  height: 600px;
+  height: 750px;
   overflow: hidden;
 }
 
