@@ -9,10 +9,10 @@ header { /* Parte de Cima da Página*/
   display: flex;
   align-items: center;
   padding: 0 40px;
-  height: 60px;
+  height: 100px;
   background: white;
-  border-top: 15px solid rgb(149, 213, 255);
-  border-bottom: 15px solid rgb(149, 213, 255);
+  border-top: 30px solid rgb(149, 213, 255);
+  border-bottom: 30px solid rgb(149, 213, 255);
   position: relative;
 }
 
@@ -70,9 +70,7 @@ h1 {
 }
 
 .logo {
-  height: 100px;
-  margin-top: +25px;
-  z-index: 1;
+  height: 90px;
   border-radius: 20px;
 }
 
@@ -81,7 +79,7 @@ h1 {
 }
 
 .menu {
-  flex-grow: 1;
+  display: flex;
   margin-left: 50px;
 }
 
@@ -91,8 +89,7 @@ h1 {
   margin-left: 5px;
   margin-right: 20px;
   font-family: "MontserratExtraBold";
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .section{
