@@ -112,6 +112,18 @@ header { /* Parte de Cima da Página*/
   margin-right: 200px;
 }
 
+.fundo2 { /* Formatação do h1 V2.0*/
+  background-color:rgb(149, 213, 222);
+  text-align: center;
+  font-size: 40px;
+  border-radius: 20px;
+  font-family: cursive;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left:  400px;
+  margin-right: 400px;
+}
+
 .produtos{
   display: grid ;
   grid-template-columns: repeat(auto-fit, minmax(100px, 5fr));
@@ -143,6 +155,14 @@ header { /* Parte de Cima da Página*/
   height:100%;
   object-fit:fill;
   aspect-ratio: 6/10;
+  transition: transform 0.5s ease;
+}
+
+.produto-img2 img{
+  width: 100%;
+  height:100%;
+  object-fit:fill;
+  aspect-ratio: 100%;
   transition: transform 0.5s ease;
 }
 
