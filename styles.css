@@ -124,12 +124,12 @@ header { /* Parte de Cima da Página*/
   margin-right: 400px;
 }
 
-.produtos{
+.produtos { /* DIV de Produtos */
   display: grid ;
   grid-template-columns: repeat(auto-fit, minmax(100px, 5fr));
 }
 
-.card{
+.card { /* DIV de Produtos Card */
   background: rgb(193, 192, 216); 
   border-radius: 15px;
   overflow: hidden;
@@ -140,17 +140,17 @@ header { /* Parte de Cima da Página*/
   border: 1px solid black;
 }
 
-.card:hover{
+.card:hover { /* DIV de Produtos Card */
   transform: translateY(-15px);
   border:2px solid var(black);
 }
 
-.produto-img{
+.produto-img { /* DIV de Produtos Imagem */
   scale: 100%;
   overflow: hidden;
 }
 
-.produto-img img{
+.produto-img img { /* DIV de Produtos Picolés */
   width: 100%;
   height:100%;
   object-fit:fill;
@@ -158,7 +158,7 @@ header { /* Parte de Cima da Página*/
   transition: transform 0.5s ease;
 }
 
-.produto-img2 img{
+.produto-img2 img { /* DIV de Produtos Sorvetes */
   width: 100%;
   height:100%;
   object-fit:fill;
@@ -166,18 +166,18 @@ header { /* Parte de Cima da Página*/
   transition: transform 0.5s ease;
 }
 
-.card:hover .produto-img img{
+.card:hover .produto-img img { /* DIV de Produtos */
   transform: scale(1.05);
 }
 
-.produto-titulo{
+.produto-titulo { /* Título dos Produtos */
   font-size: 24px;
   color:black;
   margin-top: 40px;
   text-align: center;
 }
 
-.desc{
+.desc { /* DIV de Produtos Descrição */
   font-size: 20px;
   text-align: center;
   margin-top: 5px;
@@ -185,7 +185,6 @@ header { /* Parte de Cima da Página*/
   margin-bottom: 15px;
   font-family: "GTPressura";
 }
-
 
 
 @media (max-width: 760px) { /* Configurações de Responsividade Para Celulares */
@@ -235,14 +234,14 @@ header { /* Parte de Cima da Página*/
     font-size: 15px;
   }
 
-  .fundo {
+  .fundo { /* Formatação do h1 */
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 5px;
     margin-right: 5px;
   }
 
-  .produtos {
+  .produtos { /* DIV de Produtos */
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 10px;
