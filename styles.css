@@ -140,6 +140,19 @@ header { /* Parte de Cima da Página*/
   border: 1px solid black;
 }
 
+.card2 { /* DIV de Produtos Card Sorvetes */
+  background: rgb(193, 192, 216); 
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  transition: all 0.4s ease;
+  scale: 80%;
+  border: 1px solid black;
+  width: 350px;
+  height: 420px;
+}
+
 .card:hover { /* DIV de Produtos Card */
   transform: translateY(-15px);
   border:2px solid var(black);
