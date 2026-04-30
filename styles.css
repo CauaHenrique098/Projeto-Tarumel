@@ -14,6 +14,7 @@
   font-family: 'MontserratExtraBold';
   src: url('Fontes/Montserrat-ExtraBold.ttf');
 }
+
 header { /* Parte de Cima da Página*/
   display: flex;
   align-items: center;
@@ -110,6 +111,7 @@ header { /* Parte de Cima da Página*/
   padding-bottom: 8px;
   margin-left: 200px;
   margin-right: 200px;
+  font-weight: 420;
 }
 
 .fundo2 { /* Formatação do h1 V2.0*/
@@ -122,22 +124,29 @@ header { /* Parte de Cima da Página*/
   padding-bottom: 8px;
   margin-left:  400px;
   margin-right: 400px;
+  font-weight: 350;
 }
 
 .produtos { /* DIV de Produtos */
   display: grid ;
+  align-items: center;
+  display: flex;
+  justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(100px, 5fr));
 }
 
-.card { /* DIV de Produtos Card */
-  background: rgb(193, 192, 216); 
+.card { /* DIV de Produtos Card Picolé */
+  background: rgb(193, 192, 216);
   border-radius: 15px;
   overflow: hidden;
   position: relative;
-  top: 0;
   transition: all 0.4s ease;
   scale: 80%;
   border: 1px solid black;
+  width: 350px;
+  height: 80%;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .card2 { /* DIV de Produtos Card Sorvetes */
