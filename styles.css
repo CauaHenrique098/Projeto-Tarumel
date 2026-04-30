@@ -15,6 +15,11 @@
   src: url('Fontes/Montserrat-ExtraBold.ttf');
 }
 
+@font-face { /* Fontes */
+  font-family: 'Montserrat-Italic';
+  src: url('Fontes/Montserrat-Italic.ttf');
+}
+
 header { /* Parte de Cima da Página*/
   display: flex;
   align-items: center;
@@ -37,8 +42,9 @@ header { /* Parte de Cima da Página*/
   color: black;
   margin-left: 5px;
   margin-right: 20px;
-  font-family: "MontserratExtraBold";
+  font-family: "Montserrat-Italic";
   font-size: 1.25rem;
+  font-weight: 700;
 }
 
 .menu img { /* Parte de Cima da Página*/
@@ -106,7 +112,7 @@ header { /* Parte de Cima da Página*/
   text-align: center;
   font-size: 20px;
   border-radius: 20px;
-  font-family: cursive;
+  font-family: MontserratExtraBold;
   padding-top: 8px;
   padding-bottom: 8px;
   margin-left: 200px;
@@ -205,7 +211,7 @@ header { /* Parte de Cima da Página*/
   margin-top: 5px;
   margin-left: 5px;
   margin-bottom: 15px;
-  font-family: "GTPressura";
+  font-family: Roboto;
 }
 
 
