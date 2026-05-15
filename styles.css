@@ -41,7 +41,7 @@ header {
   text-decoration: none;
   color: black;
   margin-left: 5px;
-  margin-right: 20px;
+  margin-right: 35px;
   font-family: "Montserrat-Italic";
   font-size: 1.25rem;
   font-weight: 700;
@@ -190,9 +190,11 @@ header {
   scale: 80%;
   border: 1px solid black;
   width: 350px;
-  height: 420px;
+  height: 480px;
 }
-
+.card2:hover{
+    transform: translateY(-15px);
+  }
 .card:hover {
   transform: translateY(-15px);
   border: 2px solid var(black);
@@ -218,6 +220,10 @@ header {
   aspect-ratio: 100%;
   transition: transform 0.5s ease;
 }
+.card2:hover .produto-img2 img {
+  transform: scale(1.05);
+}
+
 
 .card:hover .produto-img img {
   transform: scale(1.05);
@@ -329,4 +335,5 @@ header {
     width: auto;
     height: auto;
   }
+  
 }
