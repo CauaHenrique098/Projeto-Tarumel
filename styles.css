@@ -229,19 +229,6 @@ header {
   margin-right: 200px;
 }
 
-.fundo2 {
-  background-color: rgb(149, 213, 222);
-  text-align: center;
-  font-size: 40px;
-  border-radius: 20px;
-  font-family: cursive;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  margin-left: 400px;
-  margin-right: 400px;
-  font-weight: 350;
-}
-
 .produtos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
@@ -391,44 +378,39 @@ header {
   }
 
   .fundo {
-    font-size: 15px;
+    font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 5px;
     margin-right: 5px;
   }
 
-  .fundo2 {
-    background-color: rgb(149, 213, 222);
-    text-align: center;
-    font-size: 40px;
-    border-radius: 20px;
-    font-family: cursive;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .produtos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 10px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    max-width: 900px;
-    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr) !important; 
+    gap: 10px !important;
+    padding: 10px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
   }
 
-  .card2 {
-    background: rgb(193, 192, 216);
-    border-radius: 15px;
-    overflow: hidden;
-    position: relative;
-    top: 0;
-    transition: all 0.4s ease;
-    scale: 80%;
-    border: 1px solid black;
-    width: auto;
-    height: auto;
+  .card, .card2 {
+    border-radius: 10px;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    scale: none !important;
+  }
+
+  .info {
+    padding: 8px;
+  }
+
+  .produto-titulo {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .desc {
+    font-size: 12px;
+    line-height: 1.3;
   }
 }
