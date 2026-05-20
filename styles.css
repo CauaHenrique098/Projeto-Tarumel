@@ -142,6 +142,7 @@ header {
   width: 100%;
   max-width: 700px;
   padding: 40px;
+  border:black solid 1px;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   margin: auto;
@@ -245,7 +246,7 @@ header {
 }
 
 .card {
-  background: rgb(193, 192, 216);
+  background: rgb(245, 245, 245);
   border-radius: 15px;
   overflow: hidden;
   position: relative;
@@ -260,7 +261,7 @@ header {
 }
 
 .card2 {
-  background: rgb(193, 192, 216);
+  background: rgb(245, 245, 245);
   border-radius: 15px;
   overflow: hidden;
   position: relative;
