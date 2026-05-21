@@ -23,6 +23,8 @@
     <header style="margin-bottom: 0;">
         <a href="index.html"><img src="IMG/Tarumel.jpg" alt="Logo" class="logo"></a>
 
+        <button id="menu-toggle" class="hamburguer">☰</button>
+
         <nav class="menu">
             <a href="picoles.html"><img src="Icones/Picole.webp"> Sabores de Picolé</a>
             <a href="sorvetes.html"><img src="Icones/Sorvete.webp"> Sabores de Sorvete</a>
@@ -30,7 +32,10 @@
         </nav>
     </header>
 
-    <img style="height: 100%; width: 100%; margin-bottom: 50px;" src="IMG/Home.webp" alt="Home">
+    <picture>
+        <source media="(max-width: 760px)" srcset="IMG/Home-Celular.webp">
+        <img src="IMG/Home.webp" alt="Home" style="width: 100%; margin-bottom: 50px;">
+    </picture>
 
     <h1 class="fundo">Alguns Sabores de Sorvetes e Picolés</h1>
 
