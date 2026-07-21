@@ -9,9 +9,8 @@ if (searchInput) {
 
         cards.forEach(card => {
             const title = card.querySelector('.produto-titulo').textContent.toLowerCase();
-            const description = card.querySelector('.desc').textContent.toLowerCase();
 
-            if (title.includes(searchTerm) || description.includes(searchTerm)) {
+            if (title.includes(searchTerm)) {
                 card.classList.remove('escondido');
                 cardsVisiveis++;
             } else {
